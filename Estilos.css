@@ -1,0 +1,108 @@
+body{
+	font-family: sans-serif, arial;
+	font-size: 16px;
+	background: deepskyblue;
+}
+
+.Cotenedor{
+	width: 1000px;
+	margin: 20px;
+}
+
+header{
+	background: #D1E8FF;
+}
+
+header nav{
+	width: 100%;
+}
+
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+}
+
+header nav ul li{
+	float: left;
+	list-style: none;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 20px;
+	color: #158B97;
+}
+
+header nav ul li a:hover{
+	background: #013F45;
+	color: #23D0E1;
+}
+
+.main{
+	width: 640px;
+	background: #00E8FF;
+	float: left;
+}
+
+.main .imagen{
+	width: 100%;
+}
+
+.main .imagen img{
+	width: 100%;
+}
+
+.main .Post{
+	padding: 40px;
+}
+
+.main .Post h2{
+	color: #003B5F;
+	margin-bottom: 20px;
+}
+
+.main .Post p{
+	color: #005E4B;
+	line-height: 27px;
+	margin-bottom: 20px;
+}
+
+aside{
+	width: 200px;
+	padding: 20px;
+	background: #003A2F;
+	color: #64CEB9;
+	overflow: hidden;
+}
+
+aside .widget{
+	margin-bottom: 20px;
+}
+
+aside .widget h2{
+	border-bottom: 1px solid #9AF9FF;
+	color: #78D4DA;
+	margin-bottom: 10px;
+}
+
+aside .widget ul{
+	list-style: none;
+}
+
+aside .widget ul li{
+	border-bottom: 1px solid #37D4E1;
+	padding: 10px 0px;
+}
+
+aside .widget ul li a{
+	text-decoration: none;
+	color: #04CCDD;
+}
+
+aside .widget ul li a:hover{
+	background: #69C7F3;
+	color: #008EA4;
+	display: inline-block;
+}
+
