@@ -1,18 +1,17 @@
 body{
 	font-family: sans-serif, arial;
 	font-size: 16px;
-	background: deepskyblue;
+	background: #B1BAE7;
 }
 
-.Cotenedor{
+.contenedor{
 	width: 1000px;
-	margin: 20px;
+	margin: 20px auto;
 }
 
 header{
-	background: #D1E8FF;
+	background: #DDE2FF ;
 }
-
 header nav{
 	width: 100%;
 }
@@ -21,7 +20,6 @@ header nav ul{
 	width: 100%;
 	overflow: hidden;
 }
-
 header nav ul li{
 	float: left;
 	list-style: none;
@@ -31,17 +29,17 @@ header nav ul li a{
 	text-decoration: none;
 	display: inline-block;
 	padding: 15px 20px;
-	color: #158B97;
+	color: #1D2F5A;
 }
 
 header nav ul li a:hover{
-	background: #013F45;
-	color: #23D0E1;
+	background: #665BA5;
+	color: #DDE3F0;
 }
 
 .main{
-	width: 640px;
-	background: #00E8FF;
+	width: 680px;
+	background: #DDE2FF;
 	float: left;
 }
 
@@ -53,26 +51,26 @@ header nav ul li a:hover{
 	width: 100%;
 }
 
-.main .Post{
+.main .post{
 	padding: 40px;
 }
 
-.main .Post h2{
-	color: #003B5F;
+.main .post h2{
+	color: #000F46;
 	margin-bottom: 20px;
 }
 
-.main .Post p{
-	color: #005E4B;
+.main .post p{
+	color: #093779 ;
 	line-height: 27px;
 	margin-bottom: 20px;
 }
 
 aside{
-	width: 200px;
+	width: 280px;
 	padding: 20px;
-	background: #003A2F;
-	color: #64CEB9;
+	background: #182247 ;
+	color: #949EC3;
 	overflow: hidden;
 }
 
@@ -81,8 +79,8 @@ aside .widget{
 }
 
 aside .widget h2{
-	border-bottom: 1px solid #9AF9FF;
-	color: #78D4DA;
+	border-bottom: 1px solid white;
+	color: white;
 	margin-bottom: 10px;
 }
 
@@ -91,18 +89,42 @@ aside .widget ul{
 }
 
 aside .widget ul li{
-	border-bottom: 1px solid #37D4E1;
+	border-bottom: 1px solid #D8D8FF;
 	padding: 10px 0px;
 }
 
 aside .widget ul li a{
 	text-decoration: none;
-	color: #04CCDD;
+	color: #B0B0E7 ;
 }
 
 aside .widget ul li a:hover{
-	background: #69C7F3;
-	color: #008EA4;
+	background: #B0B0E7;
+	color: #372288 ;
 	display: inline-block;
 }
 
+aside .widget p{
+	line-height: 27px;
+	text-align: justify;
+}
+
+footer{
+	width: 600px;
+	padding: 40px;
+	background: #1F2356 ;
+	color: #C4AAD4 ;
+	overflow: hidden;
+	text-align: center;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	margin-bottom: 2px;
+	background: #182247;
+	overflow: hidden;
+	width: 1000px;
+	margin: auto;
+
+}
